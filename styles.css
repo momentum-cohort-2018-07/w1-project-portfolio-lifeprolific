@@ -1,0 +1,9 @@
+* {
+    Box-sizing: border-box;
+    margin: 0;
+    Padding: 0;
+    }
+    
+    Img {
+    max-width: 100%;
+    }
