@@ -1,9 +1,14 @@
 * {
-    Box-sizing: border-box;
+    /* Box-sizing: border-box; */
     margin: 0;
     Padding: 0;
-    }
-    
-    Img {
+}
+
+Img {
     max-width: 100%;
-    }
+}
+
+p {
+    max-width: 75em;
+    min-width: 50em;
+}
