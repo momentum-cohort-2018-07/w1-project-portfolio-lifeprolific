@@ -38,6 +38,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #F26419;
+    text-decoration: underline;
+}
+
 nav ul {
     list-style: none;
 }
@@ -101,4 +106,8 @@ em {
 
 .web_presence__github {
     background-color: #F6AE2D;
+}
+
+.web_presence__item:hover {
+    background-color: #2F4858;
 }
