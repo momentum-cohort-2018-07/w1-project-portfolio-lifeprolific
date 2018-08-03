@@ -72,3 +72,19 @@ em {
     color: #F6AE2D;
     font-weight: bold;
 }
+
+.web_presence {
+    margin: 1rem;
+}
+
+.web_presence__item {
+    display: inline-block;
+    width: 30%;
+    background-color: #F26419;
+    list-style: none;
+}
+
+.web_presence__email_img {
+    padding: 20%;
+    max-width: 60%;
+}
