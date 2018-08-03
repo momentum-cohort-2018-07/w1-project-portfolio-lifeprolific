@@ -20,7 +20,7 @@ h1 {
     max-width: 76%;
     font-weight: lighter;
     font-size: 28pt;
-    color: #EAF0CE;
+    color: #F6AE2D;
     display: inline-block;
     vertical-align: top;
     line-height: 1.5em;
@@ -53,7 +53,7 @@ section {
 
 .about_greg img {
     width:100%;
-    opacity: 0.7;
+    opacity: 0.9;
     vertical-align: bottom;
 }
 
@@ -80,11 +80,25 @@ em {
 .web_presence__item {
     display: inline-block;
     width: 30%;
-    background-color: #F26419;
+    vertical-align: top;
     list-style: none;
+}
+
+.web_presence__linkedin {
+    background-color: #86BBD8;
+    margin-right: 5%;
+}
+
+.web_presence__email {
+    background-color: #F26419;
+    margin-right: 5%;
 }
 
 .web_presence__email_img {
     padding: 20%;
     max-width: 60%;
+}
+
+.web_presence__github {
+    background-color: #F6AE2D;
 }
