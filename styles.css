@@ -1,5 +1,4 @@
 * {
-    /* Box-sizing: border-box; */
     margin: 0;
     Padding: 0;
     font-family: "Open Sans", helvetica, arial, sans-serif;
@@ -14,31 +13,31 @@ header {
     background-color: #2F4858;
     margin: 1rem;
     padding: 1rem;
+    display:inline-block;
+    position: relative;
 }
 
 h1 {
-    max-width: 76%;
     font-weight: lighter;
     font-size: 28pt;
     color: #F6AE2D;
-    display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     line-height: 1.5em;
 }
 
 nav {
-    max-width: 20%;
-    float: right;
-    margin-left: .5rem;
+    position: absolute;
+    top: 1.2rem;
+    right: -4.5rem;
 }
 
-nav a {
+a {
     color: #86BBD8;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     color: #F26419;
     text-decoration: underline;
 }
@@ -110,4 +109,63 @@ em {
 
 .web_presence__item:hover {
     background-color: #2F4858;
+}
+
+/* CSS for projects page */
+
+.project__list {
+    list-style: none;
+}
+
+.project {
+    background-color: #F26419;
+    position: relative;
+    margin: 1rem;
+}
+
+.project__img {
+    opacity: 0.6;
+}
+
+.project__description {
+    background-color: #2F4858;
+    color: #EAF0CE;
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    margin: 1.4rem;
+    padding: 1rem;
+    max-height: 70%;
+}
+
+.project__links {
+    list-style: none;
+}
+
+
+.project__links li {
+    display:inline-block;
+}
+
+.project__glitch_li {
+    width: 47%;
+}
+
+.project__github_li {
+    width: 53%;
+}
+
+.project__links a {
+    box-sizing: border-box;
+    padding:0.5rem;
+    display:block;
+    background-color: white;
+}
+
+.project__github_link {
+    text-align: right;
+}
+
+.project__img {
+    vertical-align: bottom;
 }
