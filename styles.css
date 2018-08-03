@@ -3,6 +3,7 @@
     margin: 0;
     Padding: 0;
     font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-weight: lighter;
 }
 
 Img {
@@ -16,24 +17,58 @@ header {
 }
 
 h1 {
+    max-width: 76%;
     font-weight: lighter;
-    font-size: 36pt;
+    font-size: 28pt;
     color: #EAF0CE;
     display: inline-block;
     vertical-align: top;
+    line-height: 1.5em;
 }
 
 nav {
-    display: inline-block;
-    margin-left: 1rem;
+    max-width: 20%;
+    float: right;
+    margin-left: .5rem;
 }
 
 nav a {
-    color: #F6AE2D;
-    font-weight: bolder;
+    color: #86BBD8;
+    font-weight: bold;
     text-decoration: none;
 }
 
 nav ul {
     list-style: none;
+}
+
+section {
+    margin: 1rem;
+    position: relative;
+}
+
+.about_greg {
+    background-color: #F26419;
+}
+
+.about_greg img {
+    width:100%;
+    opacity: 0.7;
+    vertical-align: bottom;
+}
+
+.about_greg p {
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    margin: 1.4rem;
+    padding: 1rem;
+    background-color: #2F4858;
+    color: #EAF0CE;
+    max-height: 70%;
+}
+
+em {
+    color: #F6AE2D;
+    font-weight: bold;
 }
