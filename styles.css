@@ -314,10 +314,22 @@ section {
 
     main {
         width: 50%;
+        max-width: 600px;
     }
 
     footer {
+        float: none;
         width: 20%;
+        max-width: 200px;
+    }
+
+    .project__list {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .project {
+        max-width: 600px;
     }
 
 
