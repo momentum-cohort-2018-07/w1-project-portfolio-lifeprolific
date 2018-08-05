@@ -183,8 +183,30 @@ section {
 }
 
 .contact__address, .contact__phone, .contact__email {
-    color: #EAF0CE;
-    font-weight: normal;
     padding-top: 1rem;
 }
 
+.work ul, .skills ul {
+    list-style: none;
+}
+
+.contact, .work, .education, .skills {
+    color: #EAF0CE;
+    font-weight: normal;
+}
+
+.work__employer {
+    margin-top: 2rem;
+    color: #F6AE2D;
+    font-weight: bold;
+}
+
+.work__position {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.work li {
+    margin-top: 1rem;
+}
