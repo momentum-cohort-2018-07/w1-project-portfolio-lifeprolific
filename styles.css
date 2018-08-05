@@ -227,3 +227,33 @@ section {
 .skills .main_label{
     margin: 0rem 1rem;
 }
+
+@media screen and (min-width: 600px) {
+    nav li{
+        display: inline-block;
+        font-size: 1.8rem;
+        margin: .2rem;
+    }
+
+    nav {
+        position: absolute;
+        top: 1.6rem;
+        right: -21rem;
+    }
+
+    main {
+        float: left;
+        width: 70%;
+    }
+
+    footer {
+        float: right;
+        width: 30%;
+    }
+
+    .web_presence__item {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+}
