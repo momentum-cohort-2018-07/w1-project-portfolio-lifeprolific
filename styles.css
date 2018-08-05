@@ -11,7 +11,7 @@ Img {
 
 header {
     background-color: #2F4858;
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
     padding: 1rem;
     display:inline-block;
     position: relative;
@@ -169,3 +169,22 @@ em {
 .project__img {
     vertical-align: bottom;
 }
+
+/* CSS for Resume */
+
+section {
+    background-color: #2F4858;
+    padding: 1rem;
+}
+
+.main_label {
+    font-weight: bold;
+    color: #F26419;
+}
+
+.contact__address, .contact__phone, .contact__email {
+    color: #EAF0CE;
+    font-weight: normal;
+    padding-top: 1rem;
+}
+
