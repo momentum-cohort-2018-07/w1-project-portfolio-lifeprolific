@@ -256,4 +256,31 @@ section {
         margin-bottom: 2rem;
     }
 
+    .project {
+        width: 60%;
+    }
+
+    .project__links {
+        position: absolute;
+        right: -50%;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .project__links li {
+        display: block;
+    }
+
+    .project__glitch_li {
+        width: 100%;
+    }
+
+    .project__github_li {
+        width: 100%;
+    }
+
+    .project__github_link {
+        text-align: left;
+    }
+
 }
