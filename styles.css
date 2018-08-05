@@ -332,6 +332,17 @@ section {
         max-width: 600px;
     }
 
+    .work__position, .education__school {
+        display: inline-block;
+    }
 
+    .work__dates, .education__dates {
+        float: right;
+        padding-top: 2rem;
+    }
 
+    .work {
+        max-width: 900px;
+        display: block;
+    }
 }
