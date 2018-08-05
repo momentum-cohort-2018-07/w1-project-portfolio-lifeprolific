@@ -195,7 +195,7 @@ section {
     font-weight: normal;
 }
 
-.work__employer {
+.work__employer, .education__school {
     margin-top: 2rem;
     color: #F6AE2D;
     font-weight: bold;
@@ -209,4 +209,21 @@ section {
 
 .work li {
     margin-top: 1rem;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #EAF0CE;
+    font-weight: bold;
+    color: #2F4858;
+    margin: 0.2rem 1rem;
+    padding: 0.3rem;
+}
+
+.skills {
+    padding: 1rem 0rem;
+}
+
+.skills .main_label{
+    margin: 0rem 1rem;
 }
