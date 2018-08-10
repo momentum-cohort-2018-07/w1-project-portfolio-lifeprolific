@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    Padding: 0;
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+    font-weight: lighter;
+}
+
+Img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #2F4858;
+    margin: 1rem 1rem 0rem 1rem;
+    padding: 1rem;
+    display:inline-block;
+    position: relative;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 28pt;
+    color: #F6AE2D;
+    vertical-align: center;
+    line-height: 1.5em;
+}
+
+nav {
+    position: absolute;
+    top: 1.2rem;
+    right: -4.5rem;
+}
+
+a {
+    color: #86BBD8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F26419;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+}
+
+section {
+    margin: 1rem;
+    position: relative;
+}
+
+.about_greg {
+    background-color: #F26419;
+}
+
+.about_greg img {
+    width:100%;
+    opacity: 0.9;
+    vertical-align: bottom;
+}
+
+.about_greg p {
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    margin: 1.4rem;
+    padding: 1rem;
+    background-color: #2F4858;
+    color: #EAF0CE;
+    max-height: 70%;
+}
+
+em {
+    color: #F6AE2D;
+    font-weight: bold;
+}
+
+.web_presence {
+    margin: 1rem;
+}
+
+.web_presence__item {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    list-style: none;
+}
+
+.web_presence__linkedin {
+    background-color: #86BBD8;
+    margin-right: 5%;
+}
+
+.web_presence__email {
+    background-color: #F26419;
+    margin-right: 5%;
+}
+
+.web_presence__email_img {
+    padding: 20%;
+    max-width: 60%;
+}
+
+.web_presence__github {
+    background-color: #F6AE2D;
+}
+
+.web_presence__item:hover {
+    background-color: #2F4858;
+}
+
+/* CSS for projects page */
+
+.project__list {
+    list-style: none;
+}
+
+.project {
+    background-color: #F26419;
+    position: relative;
+    margin: 1rem;
+}
+
+.project__img {
+    opacity: 0.6;
+}
+
+.project__description {
+    background-color: #2F4858;
+    color: #EAF0CE;
+    display: inline-block;
+    position: absolute;
+    bottom: 1em;
+    margin: 1.4rem;
+    padding: 1rem;
+    max-height: 70%;
+}
+
+.project__links {
+    list-style: none;
+}
+
+
+.project__links li {
+    display:inline-block;
+}
+
+.project__glitch_li {
+    width: 47%;
+}
+
+.project__github_li {
+    width: 53%;
+}
+
+.project__links a {
+    box-sizing: border-box;
+    padding:0.5rem;
+    display:block;
+    background-color: white;
+}
+
+.project__github_link {
+    text-align: right;
+}
+
+.project__img {
+    vertical-align: bottom;
+}
+
+/* CSS for Resume */
+
+section {
+    background-color: #2F4858;
+    padding: 1rem;
+}
+
+.main_label {
+    font-weight: bold;
+    color: #F26419;
+}
+
+.contact__address, .contact__phone, .contact__email {
+    padding-top: 1rem;
+}
+
+.work ul, .skills ul {
+    list-style: none;
+}
+
+.contact, .work, .education, .skills {
+    color: #EAF0CE;
+    font-weight: normal;
+}
+
+.work__employer, .education__school {
+    margin-top: 2rem;
+    color: #F6AE2D;
+    font-weight: bold;
+}
+
+.work__position {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.work li {
+    margin-top: 1rem;
+}
+
+.skills li {
+    display: inline-block;
+    background-color: #EAF0CE;
+    font-weight: bold;
+    color: #2F4858;
+    margin: 0.2rem 1rem;
+    padding: 0.3rem;
+}
+
+.skills {
+    padding: 1rem 0rem;
+}
+
+.skills .main_label{
+    margin: 0rem 1rem;
+}
+
+@media screen and (min-width: 600px) {
+
+    header {
+        min-width: 30%;
+    }
+
+    nav li{
+        display: inline-block;
+        font-size: 1.8rem;
+        margin: .2rem;
+    }
+
+    nav {
+        position: absolute;
+        top: 1.6rem;
+        right: -21rem;
+    }
+
+    main {
+        display:inline-block;
+        width: 70%;
+    }
+
+    footer {
+        float: right;
+        width: 30%;
+    }
+
+    .web_presence__item {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .project {
+        width: 60%;
+    }
+
+    .project__links {
+        position: absolute;
+        right: -50%;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .project__links li {
+        display: block;
+    }
+
+    .project__glitch_li {
+        width: 100%;
+    }
+
+    .project__github_li {
+        width: 100%;
+    }
+
+    .project__github_link {
+        text-align: left;
+    }
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+    body > * {
+        display:inline-block;
+        vertical-align: top;
+    }
+
+    header {
+        min-width: 0;
+    }
+
+    nav {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    main {
+        width: 50%;
+        max-width: 600px;
+    }
+
+    footer {
+        float: none;
+        width: 20%;
+        max-width: 200px;
+    }
+
+    .project__list {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .project {
+        max-width: 600px;
+    }
+
+    .work__position, .education__school {
+        display: inline-block;
+    }
+
+    .work__dates, .education__dates {
+        float: right;
+        padding-top: 2rem;
+    }
+
+    .work {
+        max-width: 900px;
+        display: block;
+    }
+}
